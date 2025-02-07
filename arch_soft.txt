@@ -1,0 +1,55 @@
+# ===== Linux =====
+base base-devel intel-ucode linux-firmware linux-zen linux-zen-headers
+
+# ===== 图形 =====
+intel-gpu-tools intel-media-driver libva libva-mesa-driver mesa mesa-utils
+nvidia-dkms nvidia-prime v4l2loopback-dkms vdpauinfo vulkan-intel vulkan-tools
+glfw-wayland lib32-nvidia-utils lib32-vulkan-intel
+
+# ===== 音频 =====
+alsa-utils helvum pipewire pipewire-alsa pipewire-jack pipewire-pulse
+pipewire-zeroconf
+
+# ===== 网络 =====
+dhcpcd hostapd ifplugd inetutils iwd netctl openresolv wireless-regdb wpa_supplicant bind
+
+# ===== 蓝牙 =====
+bluez-utils
+
+# ===== 维护 =====
+chntpw cifs-utils dialog dmidecode dosfstools efibootmgr evtest gparted gperf
+grub hdparm ntfs-3g openssh os-prober pacman-contrib usbutils
+arch-install-scripts
+
+# ===== 桌面环境 =====
+bemenu-wayland hyprland hyprpaper kvantum kvantum-theme-materia lxappearance
+lxsession-gtk3 mako materia-gtk-theme papirus-icon-theme pcmanfm-gtk3 polkit
+qt5-wayland qt5ct qt6-wayland qt6ct waybar wf-recorder wl-clipboard wtype
+xcursor-vanilla-dmz-aa xdg-desktop-portal xdg-desktop-portal-gtk
+xdg-desktop-portal-hyprland xdg-user-dirs xorg-xwayland
+
+# ===== 日常 =====
+aria2 atril brightnessctl btop ffmpeg firefox gimp grim imagemagick imv inkscape
+kdenlive kitty kooha krita mpv ncdu neofetch nginx obs-studio openbsd-netcat
+p7zip pandoc-cli perl-image-exiftool ranger rsync slurp texlive-bin thunderbird
+tmux traceroute tree unrar unzip virt-manager websocat wev wget whois wine zip
+zsh zsh-autosuggestions zsh-completions zsh-history-substring-search
+zsh-syntax-highlighting yt-dlp zxing-cpp
+
+# ===== 开发相关 =====
+gdb git jq man-db man-pages moreutils texinfo bear clang cmake go gtkmm-4.0
+jdk-openjdk jdk17-openjdk jupyterlab libvirt libwebsockets libzip neovim nodejs
+npm opencv pyright python-beautifulsoup4 python-jupyter-server-terminals
+python-matplotlib python-opencv python-pylint python-pymupdf python-pynvim
+python-requests qemu-base qrencode rust rust-analyzer tldr valgrind yapf yarn
+
+# ===== 输入法 =====
+fcitx5-im fcitx5-anthy fcitx5-chinese-addons fcitx5-material-color
+fcitx5-pinyin-zhwiki
+
+# ===== 游戏 =====
+gameconqueror gamemode gamescope lib32-gamemode steam
+
+# ===== 字体 =====
+$(pacman -Ssq adobe-source) $(pacman -Ssq noto-fonts) ttf-fantasque-nerd
+terminus-font

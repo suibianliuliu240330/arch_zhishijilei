@@ -14,7 +14,11 @@ pipewire-zeroconf
 dhcpcd hostapd ifplugd inetutils iwd netctl openresolv wireless-regdb wpa_supplicant bind
 
 # ===== 蓝牙 =====
-bluez-utils
+#蓝牙相关配置参考地址:https://cn.linux-console.net/?p=16637			https://cn.linux-console.net/?p=16637		
+bluez-utils #buletoothctl 命令工具
+bluez		#蓝牙协议
+blueman 	#蓝牙的图形管理界面
+bluedevil 	#蓝牙的图形管理界面
 
 # ===== 维护 =====
 chntpw cifs-utils dialog dmidecode dosfstools efibootmgr evtest gparted gperf
